@@ -1,0 +1,10 @@
+import os
+import csv
+import datetime from datetime
+
+rawfile = "boss_data_1"
+os.path.join("resources","raw_data",rawfile + ".csv"
+
+#changing the date
+oldformat = '20140716'
+datetimeobject = datetime.strptime(oldformat,'%Y%m%d')
