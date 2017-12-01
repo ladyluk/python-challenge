@@ -7,4 +7,6 @@ os.path.join("resources","raw_data",rawfile + ".csv"
 
 #changing the date
 oldformat = '20140716'
-datetimeobject = datetime.strptime(oldformat,'%Y%m%d')
+datetimeobject = datetime.strptime(oldformat,'%m-%d-%Y')
+newformat = datetimeobject.strftime('%m/%d/%Y')
+print newformat
